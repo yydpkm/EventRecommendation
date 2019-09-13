@@ -39,7 +39,5 @@ public class RpcHelper {
   	   }
   	
   	  return new JSONObject();
-            }
-
-
+    }
 }
