@@ -160,5 +160,10 @@ public class MongoDBConnection implements DBConnection {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
+	
+	@Override
+	public boolean registerUser(String userId, String password, String firstname, String lastname) {
+		// TODO Auto-generated method stub
+				return false;
+	}
 }
